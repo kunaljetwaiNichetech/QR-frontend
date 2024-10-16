@@ -1,0 +1,23 @@
+{
+  "name": "QR Code Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://qr-backend-1hvy.vercel.app/?vercelToolbarCode=fwaV-B2Gp9l7mo-*"
+  ],
+
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon2.png",
+      "48": "icon2.png",
+      "128": "icon2.png"
+    }
+  }
+}
